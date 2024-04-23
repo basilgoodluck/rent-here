@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Header />
-      <MainContainer />
       <Hero />
+      <MainContainer />
     </>
   );
 }
