@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/hero.js",
     "./src/components/mainContainer.js",
     "./src/components/categories.js",
+    "./src/components/featuredLists.js",
   ],
   theme: {
     extend: {
