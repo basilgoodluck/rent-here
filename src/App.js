@@ -1,10 +1,11 @@
 import './App.css';
+import MainContainer from './components/mainContainer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <MainContainer />
+    </>
   );
 }
 
