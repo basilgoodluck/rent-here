@@ -1,10 +1,12 @@
 import React from 'react'
+import Categories from './components/categories'
 
 function MainContainer() {
   return (
     <div className=''>
       <div className='text-center'>
         <h1 className='text-black'>Browse From Top Categories</h1>
+        <Categories />
         
       </div>      
     </div>
