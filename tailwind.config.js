@@ -4,6 +4,7 @@ module.exports = {
     "./src/components/header.js",
     "./src/components/hero.js",
     "./src/components/mainContainer.js",
+    "./src/components/categories.js",
   ],
   theme: {
     extend: {

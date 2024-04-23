@@ -12,9 +12,9 @@ function Hero() {
             </div>
             <div className='flex flex-col w-full'>
                 <div className='w-2/3 flex justify-between m-auto py-2'>
-                    <a className='bg-red-500 py-1 px-7 rounded-3xl'>Places</a>
-                    <a className='bg-gray-100 py-1 px-7 rounded-3xl'>Rides</a>
-                    <a className='bg-gray-100 py-1 px-7 rounded-3xl'>Things</a>
+                    <a className='bg-red-500 py-1 px-7 rounded-3xl' href='https://google.com'>Places</a>
+                    <a className='bg-gray-100 py-1 px-7 rounded-3xl' href='https://google.com'>Rides</a>
+                    <a className='bg-gray-100 py-1 px-7 rounded-3xl' href='https://google.com'>Things</a>
                 </div>
                 <div className='w-2/3 m-auto py-4'>
                     <form className='grid gap-4'>

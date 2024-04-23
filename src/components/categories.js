@@ -11,26 +11,26 @@ import { HiOutlineDotsCircleHorizontal } from "react-icons/hi";
 function Categories() {
   return (
     <div>
-        <div className='grid'>
-            <div className=''>
-                <GoThumbsup />
-                <h4>Holiday Rentals</h4>
+        <div className='grid w-full gap-4'>
+            <div className='flex items-center border border-solid p-1 rounded-full border-gray-300'>
+                <GoThumbsup className='text-red-600 font-black text-5xl p-2 bg-red-100 rounded-full'/>
+                <h4 className='px-3 text-lg font-semibold text-gray-700'>Holiday Rentals</h4>
             </div>
-            <div>
-                <PiHouseLine />
-                <h4>Residential Spaces</h4>
+            <div className='flex items-center border border-solid p-1 rounded-full border-gray-300'>
+                <PiHouseLine className='text-green-600 font-black text-5xl p-2 bg-green-100 rounded-full' />
+                <h4 className='px-3 text-lg font-semibold text-gray-700'>Residential Spaces</h4>
             </div>
-            <div>
-                <FiCompass />
-                <h4>Event Spaces</h4>
+            <div className='flex items-center border border-solid p-1 rounded-full border-gray-300'>
+                <FiCompass className='text-purple-600 font-black text-5xl p-2 bg-purple-100 rounded-full' />
+                <h4 className='px-3 text-lg font-semibold text-gray-700'>Event Spaces</h4>
             </div>
-            <div>
-                <FiDollarSign />
-                <h4>Commercial Properties</h4>
+            <div className='flex items-center border border-solid p-1 rounded-full border-gray-300'>
+                <FiDollarSign className='text-blue-600 font-black text-5xl p-2 bg-blue-100 rounded-full' />
+                <h4 className='px-3 text-lg font-semibold text-gray-700'>Commercial Properties</h4>
             </div>
-            <div>
-                <HiOutlineDotsCircleHorizontal />
-                <h4>More</h4>
+            <div className='flex items-center border border-solid p-1 rounded-full border-gray-300'>
+                <HiOutlineDotsCircleHorizontal className='text-orange-600 font-black text-5xl p-2 bg-orange-100 rounded-full' />
+                <h4 className='px-3 text-lg font-semibold text-gray-700'>More</h4>
             </div>
         </div>
       
