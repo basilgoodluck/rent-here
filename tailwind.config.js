@@ -8,6 +8,9 @@ module.exports = {
     "./src/components/categories.js",
     "./src/components/featuredLists.js",
     "./src/components/featuredCard.js",
+    "./src/components/insights.js",
+    "./src/components/location.js",
+    "./src/components/blog.js",
   ],
   theme: {
     extend: {

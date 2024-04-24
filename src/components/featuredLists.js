@@ -13,9 +13,7 @@ function FeaturedLists() {
           </div>
           <div className='grid gap-6'>
               <FeaturedCard />
-              <FeaturedCard />
-              <FeaturedCard />
-              <FeaturedCard />
+              <a href='https://github.com/basilgoodluck' className='text-white bg-red-500 text-center w-36 py-2 px-4 rounded-3xl m-auto' style={{ whiteSpace: 'nowrap' }}>Load More</a>
           </div>
       </div>      
     </div>

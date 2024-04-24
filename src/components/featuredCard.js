@@ -5,8 +5,8 @@ function FeaturedCard() {
     <div>
         <div className='relative rounded-t-3xl overflow-hidden'>
             <p className='text-white absolute top-3 right-5 bg-green-400 py-1 px-3 rounded-3xl'>For Rent</p>
-            <div>
-                <img src='./images/heroBg.png' alt='featuredImage' className='w-full'/>
+            <div className='h-72'>
+                <img src='./images/heroBg.png' alt='featuredImage' className='w-full h-full object-cover'/>
             </div>
             <div className='border border-gray-200 tracking-wider rounded-b-3xl'>
                 <h1 className='text-red-600 font-semibold text-md p-2'>85,000 NGN <span className='text-black text-sm'>/month</span></h1>
