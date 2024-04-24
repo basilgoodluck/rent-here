@@ -6,7 +6,7 @@ import { IoMdMenu } from "react-icons/io";
 function Header() {
   return (
     <div>
-        <div className='bg-white shadow-sm fixed w-full px-6 m-auto flex justify-between items-center'>
+        <div className='z-40 bg-white shadow-sm fixed w-full px-6 m-auto flex justify-between items-center'>
             <div className='w-16'>
                 <img src="./images/logo.svg" alt='logo svg' className='w-full'/>
             </div>

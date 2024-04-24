@@ -8,7 +8,7 @@ function Hero() {
         <div className='h-full w-full flex items-center justify-center flex-col text-center'>
             <div>
                 <h1 className='font-bold text-4xl'>Discover Your <br className='md:hidden' /> <span className='text-red-600'>Perfect Rental </span></h1>
-                <p className='text-white'>Rent Cars, Houses, and Items in just a Few Clicks</p>
+                <p className='text-white text-sm'>Rent Cars, Houses, and Items in just a Few Clicks</p>
             </div>
             <div className='flex flex-col w-full'>
                 <div className='w-2/3 flex justify-between m-auto py-2'>

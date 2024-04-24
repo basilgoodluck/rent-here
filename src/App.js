@@ -9,13 +9,13 @@ function App() {
   const categories = <Categories />
   const featuredLists = <FeaturedLists />
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Header />
       <Hero />
       <MainContainer newcontent={categories}/>
       <MainContainer newcontent={featuredLists}/>
 
-    </>
+    </div>
   );
 }
 
