@@ -10,7 +10,7 @@ function FeaturedCard() {
             </div>
             <div className='border border-gray-200 tracking-wider rounded-b-3xl'>
                 <h1 className='text-red-600 font-semibold text-md p-2'>85,000 NGN <span className='text-black text-sm'>/month</span></h1>
-                <h1 className='p-2 font-semibold text-2xl'>Luxury Villa in Lekki County Homes</h1>
+                <h1 className='p-2 font-semibold text-2xl md:text-xl'>Luxury Villa in Lekki County Homes</h1>
                 <div className='px-2 pb-4'>
                     <p>4 Bedrooms</p>
                     <p>4 Bathrooma</p>
