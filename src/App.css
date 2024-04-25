@@ -10,7 +10,7 @@
 .mainHeader::before{
     content: '';
     position: absolute;
-    width: 9%;
+    width: 8%;
     bottom: -60%;
     left: 43%;
     transform: translate(-50%, -50%);
@@ -26,4 +26,16 @@
     transform: translate(-50%, -50%);
     height: 3px;
     background-color: brown;
+}
+
+.heroSelect{
+    position: relative;
+}
+.heroSelect::after{
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
 }
