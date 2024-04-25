@@ -26,9 +26,9 @@ function Hero() {
             </div>
             <div className='flex flex-col w-full'>
                 <div className='w-2/3 flex justify-between m-auto py-2 md:justify-center md:grid md:gap-4 md:grid-cols-3 md:w-1/3'>
-                    <a className='bg-red-500 py-1 px-7 rounded-3xl' href='https://google.com'>Places</a>
-                    <a className='bg-gray-100 py-1 px-7 rounded-3xl' href='https://google.com'>Rides</a>
-                    <a className='bg-gray-100 py-1 px-7 rounded-3xl' href='https://google.com'>Things</a>
+                    <a className='bg-red-500 py-1 px-4 rounded-3xl' href='https://google.com'>Places</a>
+                    <a className='bg-gray-100 py-1 px-4 rounded-3xl' href='https://google.com'>Rides</a>
+                    <a className='bg-gray-100 py-1 px-4 rounded-3xl' href='https://google.com'>Things</a>
                 </div>
                 <div className='w-2/3 m-auto py-4 md:w-3/6'>
                     <form className='grid gap-4 md:flex md:bg-white md:justify-center md:items-center md:rounded-3xl md:py-2 md:px-2'>
