@@ -9,7 +9,7 @@ function Footer () {
   return (
     <div className='bg-gray-100'>
         <div className='w-11/12 m-auto text-gray-700 mt-16 py-10'>
-            <div className='grid gap-8 md:grid-cols-4'>
+            <div className='grid gap-8 lg:grid-cols-4 md:grid-cols-2'>
                 <div className='grid gap-4'>
                     <div className='w-16'>
                         <img src='./images/logo.svg' alt='logoddsb' className='w-full' />
