@@ -33,7 +33,6 @@ function Hero() {
                 <div className='w-2/3 m-auto py-4 md:w-3/6'>
                     <form className='grid gap-4 md:flex md:bg-white md:justify-center md:items-center md:rounded-3xl md:py-2 md:px-2'>
                         <div className='md:w-1/2'>
-                            {/* <CiSearch /> */}
                             <input 
                                 type='text'
                                 placeholder= 'Search for houses, cars and more'
