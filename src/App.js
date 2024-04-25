@@ -7,6 +7,7 @@ import FeaturedLists from './components/featuredLists';
 import Insights from './components/insights';
 import Location from './components/location';
 import Blog from './components/blog'
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Insights />
       <MainContainer newcontent={< Location />}/>
       <MainContainer newcontent={< Blog />}/>
+      <Footer />
     </div>
   );
 }

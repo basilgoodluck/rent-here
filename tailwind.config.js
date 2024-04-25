@@ -11,11 +11,12 @@ module.exports = {
     "./src/components/insights.js",
     "./src/components/location.js",
     "./src/components/blog.js",
+    "./src/components/footer.js",
   ],
   theme: {
     extend: {
       backgroundImage: {
-        'heroBg': 'linear-gradient(rgba(18, 0, 0, 0.5), rgba(0, 36, 0, 0.5)), url("/public/images/heroBg.png")',
+        'heroBg': 'linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/public/images/heroBg.png")',
       },
     },
   },
