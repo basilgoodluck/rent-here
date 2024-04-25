@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { CiSearch } from 'react-icons/ci'
+import '../App.css'
 // import { CiSearch } from "react-icons/ci";
 
 
@@ -31,18 +32,20 @@ function Hero() {
                     <a className='bg-gray-100 py-1 px-4 rounded-3xl' href='https://google.com'>Things</a>
                 </div>
                 <div className='w-2/3 m-auto py-4 md:w-3/6'>
-                    <form className='grid gap-4 md:flex md:bg-white md:justify-center md:items-center md:rounded-3xl md:py-2 md:px-2'>
+                    <form className='grid gap-4 md:flex md:bg-white md:justify-between md:items-center md:rounded-3xl md:py-2 md:px-2 '>
                         <div className='md:w-1/2'>
                             <input 
                                 type='text'
                                 placeholder= 'Search for houses, cars and more'
-                                className='block w-full rounded-3xl py-2 px-4'/>
+                                className='block w-full rounded-3xl py-3 px-4'/>
                         </div>
-                        <select className='block w-full md:w-1/2 rounded-3xl py-2 px-4 md:border-l md:border-gray-300 md:rounded-none'>
-                            <option>Select a location</option>
-                            <option>Nigeria</option>
-                            <option>Ghana</option>
-                        </select>
+                        <div className='heroSelect w-full md:w-1/2'>
+                            <select className=' block w-full rounded-3xl py-3 px-4 md:border-l md:border-gray-300 md:rounded-none' style={{appearance: 'none'}}>
+                                <option>Select a location</option>
+                                <option>Nigeria</option>
+                                <option>Ghana</option>
+                            </select>
+                        </div>
                         {breakPointWidth ? (
                             <button className='w-full md:w-10 bg-red-500 rounded-3xl md:px-0 md:py-0 py-2 px-4 flex text-xl justify-center items-center' > < CiSearch className='text-4xl' /></button>
                         ) : (
