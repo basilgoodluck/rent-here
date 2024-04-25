@@ -9,21 +9,20 @@ User Profiles: Create and manage user profiles to track rental history and prefe
 Search and Filters: Utilize search and filtering options to find the ideal rental based on location, price, amenities, and more.
 Secure Payments: Make secure payments for rentals directly through the platform.
 Rental Management: List your own properties, cars, or items for rent, manage bookings, and track earnings.
-Getting Started
+
+# Getting Started
 To get started with Rental APP, follow these steps:
 
 ## Installation: Clone the repository from GitHub and install the necessary dependencies.
-bash
-Copy code
-git clone https://github.com/your-username/rental-app.git
+git clone https://github.com/basilgoodluck/rental-app.git
 cd rental-app
 npm install
-Configuration: Set up any necessary environment variables and configuration options, such as API keys for payment processing.
+
+## Configuration: Set up any necessary environment variables and configuration options, such as API keys for payment processing.
 Running the App: Start the development server to run the app locally.
-bash
-Copy code
 npm start
-Usage: Access the Rental APP through your web browser and explore the available rental options. You can sign up for an account, search for rentals, make bookings, and manage your rentals.
+
+## Usage: Access the Rental APP through your web browser and explore the available rental options. You can sign up for an account, search for rentals, make bookings, and manage your rentals.
 
 ## Technologies Used
 Rental APP is built using the following technologies:
